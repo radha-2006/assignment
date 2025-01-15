@@ -93,7 +93,7 @@ public class HexConversion {
 
     public static void main(String[] args) {
         // Read the hex input string from a JSON file
-        String hexInput = readHexFromJsonFile("input.json");  // Adjust file name accordingly
+        String hexInput = readHexFromJsonFile("assingment cryptography.json");  // Adjust file name accordingly
 
         if (hexInput.isEmpty()) {
             System.out.println("No hex data found in the file.");
